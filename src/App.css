@@ -1,0 +1,240 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  font-size: 12px;
+}
+
+/* Reset Style*/
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+p {
+  font-size: 12px;
+  line-height: 1.4;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.links a {
+  text-decoration: underline;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio-container {
+  /* max-width: 800px; */
+  /* margin: 20px auto; */
+
+  padding: 0 20px 20px 20px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.export-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.export-button:hover {
+  background-color: #0056b3;
+}
+
+/* Header */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 62px;
+  margin-block: 5px;
+}
+
+.header h2 {
+  font-weight: 100;
+  font-style: italic;
+  margin-block: 5px;
+}
+
+.headerImage {
+  height: 100%;
+  max-height: 80px;
+  object-fit: contain;
+}
+
+/* Klasy pomocnicze */
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.pictureContainer {
+  position: relative;
+  height: auto;
+  width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.pictureCV {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.pictureLine {
+  height: 12px;
+  width: 100%;
+  background-color: #4682b4;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+}
+
+.columnLeft {
+  flex: 1.5;
+  background-color: #4682b4;
+  color: #ffffff;
+  min-width: 150px;
+}
+
+.columnRight {
+  flex: 3;
+  color: #000;
+  min-width: 300px;
+}
+
+.lineMid {
+  height: 40px;
+}
+
+.lineSmall {
+  height: 10px;
+}
+
+.marginLine {
+  margin-top: 10px;
+}
+
+.columnContainer {
+  padding: 10px;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.bio a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.bio a svg {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.skills {
+  margin-top: 10px;
+}
+
+.headerSkills {
+  padding: 5px 45px;
+  margin-block: 10px;
+  border: 2px solid #357eb6;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.columnRight .headerSkills {
+  background-color: #357eb6;
+}
+
+.skills h3,
+.headerSkills h3 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.skills ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-block: 10px;
+}
+
+/* Card Experience*/
+
+.cardExperience {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.experienceTime {
+  flex: 2;
+}
+.experienceBody {
+  flex: 4;
+}
+.experienceBody ul {
+  list-style: disc;
+  padding-left: 15px;
+}
+
+.experienceHeader {
+  margin-bottom: 10px;
+}
+
+.achievList {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.links {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.links a{
+text-decoration: underline;
+}
+
+.copyright {
+  margin-top: 20px;
+  display: flex;
+}
+
+.copyright p {
+  font-size: 8px;
+}

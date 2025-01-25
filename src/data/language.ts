@@ -1,0 +1,1 @@
+export const language = ["Polski (ojczysty)", "Angielski (B2)"]

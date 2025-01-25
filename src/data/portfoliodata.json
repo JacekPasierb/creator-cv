@@ -1,0 +1,50 @@
+{
+  "name": "Jacek Pasierb",
+  "role": "Full Stack Developer",
+  "contact": {
+    "email": "jpasierb@proton.me",
+    "phone": "+48 724 862 714",
+    "website": "https://jacekpasierb.netlify.app",
+    "github": "https://github.com/JacekPasierb",
+    "linkedin": "https://www.linkedin.com/in/jacek-pasierb"
+  },
+  "skills": {
+    "frontend": [
+      "HTML",
+      "CSS",
+      "Sass",
+      "React",
+      "Redux",
+      "TypeScript",
+      "Bootstrap",
+      "Next.js"
+    ],
+
+    "backend": [
+      "Node.js",
+      "Express",
+      "RESTFull API",
+      "MongoDB",
+      "PostgreSQL",
+      "Strapi"
+    ],
+    "devops": ["Git", "CI/CD", "Netlify", "Heroku", "Vercel", "Docker"],
+    "testing": ["Jest", "Postman"],
+    "tools": ["Trello", "Jira", "Scrum", "Kanban"],
+    "other": ["Figma", "SEO", "WCAG", "Material UI"]
+  },
+  "projects": [
+    {
+      "name": "So Yummy",
+      "description": "Aplikacja kulinarna...",
+      "repoFrontend": "https://github.com/JacekPasierb/SO-YUMMY-APP",
+      "repoBackend": "https://github.com/JacekPasierb/SO-YUMMY-APP-BACKEND"
+    },
+    {
+      "name": "Wallet",
+      "description": "Aplikacja finansowa...",
+      "repoFrontend": "https://github.com/JacekPasierb/Codeholics-Wallet-App-backend",
+      "repoBackend": ""
+    }
+  ]
+}
